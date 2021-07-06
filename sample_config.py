@@ -43,3 +43,4 @@ class Config(object):
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
     #mangodb
     DATABASE_URL = os.environ.get("DATABASE_URL-mango")
+    LOG_CHANNEL = int(os.environ.get("MT_LOG_CHANNEL"))
