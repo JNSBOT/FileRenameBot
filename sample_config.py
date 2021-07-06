@@ -39,4 +39,7 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     # Database url
     DB_URI = os.environ.get("DATABASE_URL", "")
-    
+    #for adding broadcast
+    BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
+    #mangodb
+    DATABASE_URL = os.environ.get("DATABASE_URL-mango")
