@@ -43,7 +43,7 @@
       "value": "128",
       "required": false
     },
-    "DATABASE_URL": {
+    "DATABASE_URL-mango": {
        "description": "MongoDB Database URI for Saving UserID for Broadcast."
      },
      "MT_UPDATES_CHANNEL": {
@@ -65,7 +65,8 @@
        "description": "Broadcast with Forward Tag or as Copy(Without Forward Tag). Value should be True/False !!",
        "required": false
     }
-  "addons": [
+  "addons":
+  [
     {
     "plan": "heroku-postgresql",
       "options": {
