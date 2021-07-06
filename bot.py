@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 import os
 from jns.broadcast_handlers import main_broadcast_handler
-from jns.database import Database
+from jns.database1 import Database
 
 db = Database(Config.DATABASE_URL, Config.BOT_USERNAME)
 
