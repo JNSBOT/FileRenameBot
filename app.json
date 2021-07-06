@@ -42,6 +42,27 @@
       "description": "chunk size that should be used with requests",
       "value": "128",
       "required": false
+        "DATABASE_URL": {
+            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+        },
+        "MT_UPDATES_CHANNEL": {
+            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
+            "required": false
+        },
+        "MT_LOG_CHANNEL": {
+            "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
+        },
+        "BANNED_USERS": {
+            "description": "Banned unwanted members",
+            "required": false
+        },
+        "BANNED_CHAT_IDS": {
+            "description": "Banned unwanted channel IDs",
+            "required": false
+        },
+        "BROADCAST_AS_COPY": {
+            "description": "Broadcast with Forward Tag or as Copy(Without Forward Tag). Value should be True/False !!",
+            "required": false
     }
   },
   "addons": [
