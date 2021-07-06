@@ -44,3 +44,7 @@ class Config(object):
     #mangodb
     DATABASE_URL = os.environ.get("DATABASE_URL-mango")
     LOG_CHANNEL = int(os.environ.get("MT_LOG_CHANNEL"))
+    BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split()
+    FORWARD_AS_COPY = bool(os.environ.get("MO_TECH_YT", True))
+    BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
+	
