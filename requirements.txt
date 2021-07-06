@@ -12,3 +12,6 @@ psycopg2-binary
 feedparser
 tgcrypto
 youtube-dl
+motor
+dnspython
+psutil
