@@ -46,10 +46,6 @@
     "DATABASE_URL-mango": {
        "description": "MongoDB Database URI for Saving UserID for Broadcast."
      },
-     "MT_UPDATES_CHANNEL": {
-       "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -  "
-       "required": false
-     },
      "MT_LOG_CHANNEL": {
        "description": "Logs Channel ID for some Tracking XD. Example: -100123456789"
      },
